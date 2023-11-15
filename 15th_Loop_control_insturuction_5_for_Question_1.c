@@ -1,11 +1,11 @@
-
-// printing the float vlaues
+// Q. Print the numbers from 0 to 10
+// -> 012345678910
 #include<stdio.h>
 int main()
 {
-    for(float a=0;a<=3.9;a+=0.11)
+    for(int i=0;i<=10;i+=1)
     {
-        printf("%f\n",a);
+        printf("%d\n",i);
     }
     return 0;
-} 
+}
